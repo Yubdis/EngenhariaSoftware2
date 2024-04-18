@@ -1,0 +1,33 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    margin: 3em;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+.container-states {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-grow: 1;
+    margin-top: 3em;
+    justify-content: center;
+}
+.box1 {
+    padding: 2em;
+    background-color: blue;
+    color: white;
+}
+.box2 {
+    padding: 2em;
+    background-color: red;
+}
