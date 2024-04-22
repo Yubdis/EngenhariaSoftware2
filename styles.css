@@ -35,6 +35,8 @@ body {
 }
 .hidden {
     opacity: 0;
+    /* display: none; */
+    /* visibility: hidden; */
 }
 .changeState:hover {
     background-color: darkgray;
